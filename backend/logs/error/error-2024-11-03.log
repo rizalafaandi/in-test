@@ -1,0 +1,76 @@
+11/3/2024, 12:02:18 AM [31merror[39m: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:5:30
+
+  2 
+  3 class UserRepository {
+  4   async findById(params) {
+→ 5     return await prisma.user.findUnique(
+The table `public.User` does not exist in the current database.
+    at Mn.handleRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7753)
+    at Mn.handleAndLogRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7061)
+    at Mn.request (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:6745)
+    at async l (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:5:12)
+11/3/2024, 12:03:15 AM [31merror[39m: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:30
+
+  3 class UserRepository {
+  4   async findById(params) {
+  5     console.log(params);
+→ 6     return await prisma.user.findUnique(
+The table `public.User` does not exist in the current database.
+    at Mn.handleRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7753)
+    at Mn.handleAndLogRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7061)
+    at Mn.request (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:6745)
+    at async l (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:12)
+11/3/2024, 12:03:47 AM [31merror[39m: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:30
+
+  3 class UserRepository {
+  4   async findById(params) {
+  5     console.log(params);
+→ 6     return await prisma.user.findUnique(
+The table `public.User` does not exist in the current database.
+    at Mn.handleRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7753)
+    at Mn.handleAndLogRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7061)
+    at Mn.request (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:6745)
+    at async l (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:12)
+11/3/2024, 12:05:02 AM [31merror[39m: PrismaClientValidationError: 
+Invalid `prisma.users.findUnique()` invocation in
+/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:31
+
+  3 class UserRepository {
+  4   async findById(params) {
+  5     console.log(params);
+→ 6     return await prisma.users.findUnique({
+          where: {
+            email: "Abc@mail.com",
+        ?   id?: BigInt,
+        ?   email_nickname?: usersEmailNicknameCompoundUniqueInput,
+        ?   AND?: usersWhereInput | usersWhereInput[],
+        ?   OR?: usersWhereInput[],
+        ?   NOT?: usersWhereInput | usersWhereInput[],
+        ?   password?: StringNullableFilter | String | Null,
+        ?   nickname?: StringNullableFilter | String | Null,
+        ?   date_of_birth?: DateTimeNullableFilter | DateTime | Null
+          }
+        })
+
+Argument `where` of type usersWhereUniqueInput needs at least one of `id` or `email_nickname` arguments. Available options are marked with ?.
+    at Dn (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:114:8082)
+    at Mn.handleRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7396)
+    at Mn.handleAndLogRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7061)
+    at Mn.request (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:6745)
+    at async l (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:6:12)
+11/3/2024, 12:07:11 AM [31merror[39m: TypeError: Cannot read properties of null (reading 'length')
+    at /Users/macpro/Documents/product/hlalin-app-be/src/application/use_cases/auth/login.use_case.js:9:15
+11/3/2024, 12:07:26 AM [31merror[39m: TypeError: Cannot read properties of null (reading 'length')
+    at /Users/macpro/Documents/product/hlalin-app-be/src/application/use_cases/auth/login.use_case.js:9:15
+11/3/2024, 12:08:52 AM [31merror[39m: Error: Invalid email or password
+    at /Users/macpro/Documents/product/hlalin-app-be/src/application/use_cases/auth/login.use_case.js:10:21

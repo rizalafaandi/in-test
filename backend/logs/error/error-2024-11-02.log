@@ -1,0 +1,89 @@
+11/2/2024, 5:51:23 PM [31merror[39m: PrismaClientInitializationError: Authentication failed against database server at `localhost`, the provided database credentials for `johndoe` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at t (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:111:2488)
+11/2/2024, 5:51:31 PM [31merror[39m: PrismaClientInitializationError: Authentication failed against database server at `localhost`, the provided database credentials for `johndoe` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at t (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:111:2488)
+11/2/2024, 11:11:36 PM [31merror[39m: TypeError: Cannot read properties of undefined (reading 'findUnique')
+    at UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:5:30)
+    at getUserById (/Users/macpro/Documents/product/hlalin-app-be/src/application/services/user.services.js:5:39)
+    at Layer.handle [as handle_request] (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/macpro/Documents/product/hlalin-app-be/node_modules/express/lib/router/index.js:280:10)
+    at cors (/Users/macpro/Documents/product/hlalin-app-be/node_modules/cors/lib/index.js:188:7)
+11/2/2024, 11:14:34 PM [31merror[39m: RangeError: Maximum call stack size exceeded
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:53)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+11/2/2024, 11:15:23 PM [31merror[39m: RangeError: Maximum call stack size exceeded
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:53)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+    at qs (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:119)
+    at js (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:23:851)
+11/2/2024, 11:15:37 PM [31merror[39m: GET / 404 - 34.931 ms - message: -
+11/2/2024, 11:15:37 PM [31merror[39m: GET /favicon.ico 404 - 7.379 ms - message: -
+11/2/2024, 11:15:37 PM [31merror[39m: GET / 404 - 2.175 ms - message: -
+11/2/2024, 11:15:39 PM [31merror[39m: GET / 404 - 1.656 ms - message: -
+11/2/2024, 11:16:16 PM [31merror[39m: GET / 404 - 5.272 ms - message: -
+11/2/2024, 11:16:17 PM [31merror[39m: GET / 404 - 1.815 ms - message: -
+11/2/2024, 11:16:17 PM [31merror[39m: GET / 404 - 2.562 ms - message: -
+11/2/2024, 11:16:18 PM [31merror[39m: GET / 404 - 1.530 ms - message: -
+11/2/2024, 11:16:18 PM [31merror[39m: GET / 404 - 1.961 ms - message: -
+11/2/2024, 11:16:18 PM [31merror[39m: GET / 404 - 2.209 ms - message: -
+11/2/2024, 11:16:19 PM [31merror[39m: GET / 404 - 1.977 ms - message: -
+11/2/2024, 11:16:53 PM [31merror[39m: GET /1 404 - 3.880 ms - message: -
+11/2/2024, 11:51:13 PM [31merror[39m: GET /1 500 - 6.690 ms - message: -
+11/2/2024, 11:51:18 PM [31merror[39m: GET / 500 - 1.696 ms - message: -
+11/2/2024, 11:52:08 PM [31merror[39m: GET / 500 - 1.368 ms - message: -
+11/2/2024, 11:54:19 PM [31merror[39m: GET / 404 - 6.503 ms - message: -
+11/2/2024, 11:54:31 PM [31merror[39m: GET /api/v1/auth/login 404 - 1.824 ms - message: -
+11/2/2024, 11:54:48 PM [31merror[39m: GET /api/v1/auth/login 404 - 0.925 ms - message: -
+11/2/2024, 11:54:55 PM [31merror[39m: GET /api/v1/auth/login 404 - 5.357 ms - message: -
+11/2/2024, 11:55:39 PM [31merror[39m: POST /api/v1/auth/login 400 - 20.997 ms - message: -
+11/2/2024, 11:56:21 PM [31merror[39m: POST /api/v1/auth/login 400 - 56.624 ms - message: -
+11/2/2024, 11:56:39 PM [31merror[39m: POST /api/v1/auth/login 400 - 30.191 ms - message: -
+11/2/2024, 11:57:45 PM [31merror[39m: POST /api/v1/auth/login 400 - 27.115 ms - message: -
+11/2/2024, 11:57:58 PM [31merror[39m: POST /api/v1/auth/login 400 - 24.936 ms - message: -
+11/2/2024, 11:58:37 PM [31merror[39m: POST /api/v1/auth/login 400 - 28.224 ms - message: -
+11/2/2024, 11:59:11 PM [31merror[39m: PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:5:30
+
+  2 
+  3 class UserRepository {
+  4   async findById(id) {
+→ 5     return await prisma.user.findUnique({
+          where: {
+            id: {
+              email: "Abc@mail.com"
+            }
+            ~~~~~~~~~~~~~~~~~~~~~~~
+          }
+        })
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+    at Dn (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:114:8082)
+    at Mn.handleRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7396)
+    at Mn.handleAndLogRequestError (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:7061)
+    at Mn.request (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:121:6745)
+    at async l (/Users/macpro/Documents/product/hlalin-app-be/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async UserRepository.findById (/Users/macpro/Documents/product/hlalin-app-be/src/application/repositories/user.repository.js:5:12)
