@@ -159,3 +159,19 @@ Argument `where` of type usersWhereUniqueInput needs at least one of `id` or `em
 11/3/2024, 10:10:27 AM [32minfo[39m: SIGTERM signal received
 11/3/2024, 10:10:27 AM [32minfo[39m: Connected to SQL Database
 11/3/2024, 10:10:27 AM [32minfo[39m: Server (development) running on port 3000
+11/3/2024, 10:34:54 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:35:00 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:35:30 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:35:30 AM [32minfo[39m: Server (development) running on port 5001
+11/3/2024, 10:35:44 AM [32minfo[39m: SIGTERM signal received
+11/3/2024, 10:36:38 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:36:38 AM [32minfo[39m: Server (development) running on port 5001
+11/3/2024, 10:37:04 AM [32minfo[39m: SIGTERM signal received
+11/3/2024, 10:43:14 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:43:14 AM [32minfo[39m: Server (development) running on port 5001
+11/3/2024, 10:44:57 AM [32minfo[39m: SIGTERM signal received
+11/3/2024, 10:44:58 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:44:58 AM [32minfo[39m: Server (development) running on port 5001
+11/3/2024, 10:45:43 AM [32minfo[39m: SIGTERM signal received
+11/3/2024, 10:45:43 AM [32minfo[39m: Connected to SQL Database
+11/3/2024, 10:45:43 AM [32minfo[39m: Server (development) running on port 5001

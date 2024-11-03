@@ -74,3 +74,15 @@ Argument `where` of type usersWhereUniqueInput needs at least one of `id` or `em
     at /Users/macpro/Documents/product/hlalin-app-be/src/application/use_cases/auth/login.use_case.js:9:15
 11/3/2024, 12:08:52 AM [31merror[39m: Error: Invalid email or password
     at /Users/macpro/Documents/product/hlalin-app-be/src/application/use_cases/auth/login.use_case.js:10:21
+11/3/2024, 10:34:54 AM [31merror[39m: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/application.js:635:24)
+    at /Users/macpro/Documents/product/incit-test/backend/src/server.js:8:16
+11/3/2024, 10:35:00 AM [31merror[39m: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/application.js:635:24)
+    at /Users/macpro/Documents/product/incit-test/backend/src/server.js:8:16
