@@ -14,6 +14,7 @@ const clean = (data = '') => {
 };
 
 const xssMiddleware = () => {
+  console.log('asd');
   return (req, res, next) => {
     if (req.body) req.body = clean(req.body);
     if (req.query) req.query = clean(req.query);

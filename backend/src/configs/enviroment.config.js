@@ -27,7 +27,7 @@ module.exports = {
   database: {
     url: envVars.DATABASE_URL
   },
-  jwtSecret: {
+  jwt: {
     secret: envVars.JWT_SECRET
   }
 };

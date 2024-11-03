@@ -13,4 +13,5 @@ model users {
   password      String?   @db.VarChar
   nickname      String?   @unique(map: "users_un2") @db.VarChar
   date_of_birth DateTime? @db.Date
+  is_active     Boolean?  @default(false)
 }

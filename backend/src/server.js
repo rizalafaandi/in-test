@@ -12,20 +12,20 @@ prisma.$connect().then(() => {
   });
 });
 
-const exitHandler = () => {
-  if (server) {
-    server.close(() => {
-      loggerConfig.info('Server closed');
-      process.exit(1);
-    });
-  } else {
-    process.exit(1);
-  }
-};
+// const exitHandler = () => {
+//   if (server) {
+//     server.close(() => {
+//       loggerConfig.info('Server closed');
+//       process.exit(1);
+//     });
+//   } else {
+//     process.exit(1);
+//   }
+// };
 
 const unexpectedErrorHandler = (error) => {
   loggerConfig.error(error);
-  exitHandler();
+  // exitHandler();
 };
 
 process.on('uncaughtException', unexpectedErrorHandler);

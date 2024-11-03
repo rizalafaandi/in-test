@@ -1,4 +1,17 @@
-const login = async (email, password, userRepository, authService) => {
+const httpStatus = require('http-status');
+const nodemailer = require('nodemailer');
+const { sendMailActivate } = require('../../../modules/nodemailer.modules');
+
+const login = async (
+  email,
+  password,
+  sign_method,
+  displayName,
+  userRepository,
+  authService,
+  jwtModule,
+  options
+) => {
   try {
     if (!email || !password) {
       const error = new Error('email and password fields cannot be empty');
@@ -8,6 +21,22 @@ const login = async (email, password, userRepository, authService) => {
     const user = await userRepository.findById({ email });
     if (!user) {
       const error = new Error('User not found');
+      error.statusCode = 401;
+      throw error;
+    }
+    if (!user.is_active) {
+      const token = jwtModule.sign(
+        { id: user?.id },
+        process.env.KEY_ACTIVATE_ACCOUNT
+      );
+      sendMailActivate(
+        nodemailer,
+        `${options?.host}/api/v1/auth/activate?email=${user?.email}&token=${token}}`,
+        email
+      );
+      const error = new Error(
+        'Your account not active. Please check your email and confirm for activation '
+      );
       error.statusCode = 401;
       throw error;
     }
@@ -22,9 +51,14 @@ const login = async (email, password, userRepository, authService) => {
         id: user?.id
       }
     };
-    return authService.generateToken(payload);
+    return {
+      status: httpStatus[200],
+      statusCode: 200,
+      message: 'Success to login',
+      accessToken: authService.generateToken(payload)
+    };
   } catch (error) {
-    console.log({ error });
+    throw { ...error, message: error.message };
   }
 };
 

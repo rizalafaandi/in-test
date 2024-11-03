@@ -15,7 +15,7 @@ module.exports = {
     const verify = (token) => jwt.verify(token, envConfig.jwtSecret);
 
     const generateToken = (payload) =>
-      jwt.sign(payload, envConfig.jwtSecret, {
+      jwt.sign(payload, envConfig.jwt.secret, {
         expiresIn: 360000
       });
 
