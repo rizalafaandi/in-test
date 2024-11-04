@@ -5,8 +5,6 @@ const { sendMailActivate } = require('../../../modules/nodemailer.modules');
 const login = async (
   email,
   password,
-  sign_method,
-  displayName,
   userRepository,
   authService,
   jwtModule,

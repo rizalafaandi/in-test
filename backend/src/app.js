@@ -7,7 +7,6 @@ const { morganConfig } = require('./configs');
 const routes = require('./routes');
 const { errorMiddleware, xssMiddleware } = require('./middlewares');
 const { apiError } = require('./utils');
-const { firebaseInit } = require('./modules/firebase.modules');
 
 const app = express();
 
@@ -61,31 +60,5 @@ BigInt.prototype.toJSON = function () {
   const int = Number.parseInt(this.toString());
   return int ?? this.toString();
 };
-
-// firebase oauth
-const firebase = firebaseInit();
-
-//test
-app.post('/register', async (req, res) => {
-  try {
-    const { email, username, password } = req.body;
-    firebase
-      .auth()
-      .createUserWithEmailAndPassword(email, password)
-      .then((userCredential) => {
-        // Signed in
-        var user = userCredential.user;
-        console.log(user);
-      })
-      .catch((error) => {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.log(error);
-      });
-    res.send('heheh');
-  } catch (e) {
-    res.redirect('register');
-  }
-});
 
 module.exports = app;

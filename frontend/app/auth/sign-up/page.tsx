@@ -1,6 +1,7 @@
 "use client";
 import AuthForm from "@/components/organisms/AuthForm";
 import useAuthSubmit, { AuthData } from "@/hooks/useAuthSubmit";
+import { firebaseOauth } from "@/utils/firebaseOauth";
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 import { FaFacebook } from "react-icons/fa";
@@ -8,21 +9,23 @@ import { FcGoogle } from "react-icons/fc";
 
 const SignupPage = () => {
   const router = useRouter();
-  const { submit, loading, error, success } = useAuthSubmit(
-    "/api/v1/auth/register"
-  );
+  const { submit, success, loginData } = useAuthSubmit("/api/v1/auth/register");
 
-  console.log({ loading, error, success });
+  const { loginWithGoogle } = firebaseOauth(submit);
 
   const handleSubmit = async (val: AuthData) => {
-    await submit(val);
+    await submit({ ...val, sign_method: "basic" });
   };
 
   useEffect(() => {
     if (success) {
-      router.replace("/success/sign-up");
+      if (loginData?.result.is_active) {
+        router.replace("/dashboard");
+      } else {
+        router.replace("/success/sign-up");
+      }
     }
-  }, [success, router]);
+  }, [success, router, loginData]);
   return (
     <AuthForm
       isRegister
@@ -31,7 +34,10 @@ const SignupPage = () => {
         <div className="flex items-center flex-col gap-3 my-5">
           <span className="text-gray-400">Or sign with</span>
           <div className="flex gap-5">
-            <button className="flex flex-row-reverse gap-1">
+            <button
+              className="flex flex-row-reverse gap-1"
+              onClick={loginWithGoogle}
+            >
               <label htmlFor="google-sign" className="text-black">
                 Google
               </label>

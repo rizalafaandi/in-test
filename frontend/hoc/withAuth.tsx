@@ -1,14 +1,10 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { ReactNode, useEffect } from "react";
+import { useEffect } from "react";
 import Cookies from "js-cookie";
 
-type WithAuthProps = {
-  children: ReactNode;
-};
-
 export function withAuth(WrappedComponent: React.ComponentType) {
-  const ProtectedComponent: React.FC<WithAuthProps> = (props) => {
+  const ProtectedComponent: React.FC = (props) => {
     const router = useRouter();
 
     useEffect(() => {
@@ -20,7 +16,6 @@ export function withAuth(WrappedComponent: React.ComponentType) {
       }
     }, [router]);
 
-    // @ts-ignore
     return <WrappedComponent {...props} />;
   };
 

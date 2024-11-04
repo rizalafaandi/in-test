@@ -21,6 +21,7 @@ const authRouter = (express) => {
 
   router.route('/login').post(controller.loginUser);
   router.route('/register').post(validatePassword, controller.registerUser);
+  router.route('/oauth').post(controller.oauthUser);
   router.route('/activate').patch(validatePassword, controller.activatUser);
 
   return router;

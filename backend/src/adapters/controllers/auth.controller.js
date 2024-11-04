@@ -1,5 +1,6 @@
 const activateAccount = require('../../application/use_cases/auth/activate_account.use_case');
 const login = require('../../application/use_cases/auth/login.use_case');
+const oauth = require('../../application/use_cases/auth/oatuh.use_case');
 const register = require('../../application/use_cases/auth/register.use_case');
 
 const authController = (
@@ -14,12 +15,10 @@ const authController = (
 
   const loginUser = async (req, res) => {
     try {
-      const { email, password, displayName, sign_method } = req.body;
+      const { email, password } = req.body;
       const data = await login(
         email,
         password,
-        sign_method,
-        displayName,
         dbRepository,
         authServices,
         jwtModule,
@@ -34,6 +33,7 @@ const authController = (
   };
 
   const registerUser = async (req, res) => {
+    console.log(req.body);
     try {
       const { email, password } = req.body;
       const data = await register(
@@ -46,9 +46,26 @@ const authController = (
           host: `${req.protocol}://${req.headers?.host}`
         }
       );
+      console.log({ data });
       res.status(data.statusCode).json(data);
     } catch (error) {
+      console.log({ error });
       res.status(error.statusCode).json(error);
+    }
+  };
+
+  const oauthUser = async (req, res) => {
+    try {
+      const { email, displayName } = req.body;
+      const data = await oauth(
+        { email, displayName },
+        userRepository,
+        authServices
+      );
+      res.status(data.statusCode || 200).json(data);
+    } catch (error) {
+      console.log({ error });
+      res.status(error.statusCode || 500).json(error);
     }
   };
 
@@ -67,7 +84,7 @@ const authController = (
     }
   };
 
-  return { loginUser, registerUser, activatUser };
+  return { loginUser, registerUser, oauthUser, activatUser };
 };
 
 module.exports = authController;

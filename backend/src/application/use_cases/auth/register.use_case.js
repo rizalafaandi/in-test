@@ -16,11 +16,6 @@ const register = async (
     }
     const user = await userRepository.findById({ email });
     if (user) {
-      //   return {
-      //     statusCode: 409,
-      //     success: false,
-      //     message: 'Email already used by another'
-      //   };
       const error = new Error('Email already used by another');
       error.statusCode = 409;
       throw error;
