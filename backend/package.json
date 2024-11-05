@@ -6,6 +6,7 @@
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
+    "postinstall": "prisma generate",
     "start": "cross-env NODE_ENV=production node src/server.js",
     "dev": "cross-env NODE_ENV=development node --watch src/server.js",
     "lint": "eslint .",
