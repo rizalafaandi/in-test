@@ -1,5 +1,5 @@
 const morgan = require('morgan');
-const loggerConfig = require('./logger.config');
+// const loggerConfig = require('./logger.config');
 
 morgan.token('message', (req, res) => res.locals.errorMessage || '');
 
@@ -11,7 +11,8 @@ const successHandler = morgan(successResponseFormat, {
     const isStatic = req.baseUrl?.includes('static');
     return res.statusCode >= 400 || isStatic;
   },
-  stream: { write: (message) => loggerConfig.info(message.trim()) }
+  stream: { write: (message) => {} }
+  // stream: { write: (message) => loggerConfig.info(message.trim()) }
 });
 
 const errorHandler = morgan(errorResponseFormat, {
@@ -19,7 +20,8 @@ const errorHandler = morgan(errorResponseFormat, {
     const isStatic = req.baseUrl?.includes('static');
     return res.statusCode < 400 || isStatic;
   },
-  stream: { write: (message) => loggerConfig.error(message.trim()) }
+  stream: { write: (message) => {} }
+  // stream: { write: (message) => loggerConfig.error(message.trim()) }
 });
 
 module.exports = {
