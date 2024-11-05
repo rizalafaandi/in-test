@@ -41,6 +41,7 @@ const register = async (
       message: 'success register, check your email for verification'
     };
   } catch (error) {
+    console.log({ error });
     throw { ...error, message: error.message };
   }
 };

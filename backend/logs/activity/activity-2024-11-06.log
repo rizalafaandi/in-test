@@ -668,3 +668,43 @@
 11/6/2024, 2:35:13 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.355 ms
 11/6/2024, 2:35:13 AM [32minfo[39m: PATCH /api/v1/user/profile 200 - 3.558 ms
 11/6/2024, 2:35:38 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:51:57 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:51:58 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:52:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 3:05:26 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 3:05:26 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 3:05:49 AM [31merror[39m: POST /api/v1/auth/login 401 - 318.879 ms - message: -
+11/6/2024, 3:05:51 AM [31merror[39m: POST /api/v1/auth/login 401 - 89.841 ms - message: -
+11/6/2024, 3:05:52 AM [31merror[39m: POST /api/v1/auth/login 401 - 95.181 ms - message: -
+11/6/2024, 3:06:02 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at registerUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:53:43)
+11/6/2024, 3:06:39 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 3:06:45 AM [32minfo[39m: POST /api/v1/auth/register - - 290.841 ms
+11/6/2024, 3:06:45 AM [31merror[39m: POST /api/v1/auth/register - - 290.841 ms - message: -
+11/6/2024, 3:06:46 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 3:06:46 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 3:06:47 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at registerUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:53:43)
+11/6/2024, 3:07:06 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 3:07:06 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 3:07:06 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 3:07:10 AM [32minfo[39m: POST /api/v1/auth/register - - 131.643 ms
+11/6/2024, 3:07:10 AM [31merror[39m: POST /api/v1/auth/register - - 131.643 ms - message: -
