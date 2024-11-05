@@ -4,7 +4,7 @@ const activateAccount = async (email, token, userRepository, jwtModule) => {
       const error = new Error('Link not valid');
       throw error;
     }
-    const user = await userRepository.findById({ email });
+    const user = await userRepository.findByUnique({ email });
     if (!user) {
       const error = new Error('User not found');
       error.statusCode = 404;

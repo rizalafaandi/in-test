@@ -1,0 +1,106 @@
+11/6/2024, 12:20:13 AM [31merror[39m: GET /api/v1/user/profile 401 - 3.621 ms - message: -
+11/6/2024, 12:20:21 AM [31merror[39m: GET /api/v1/user/profile 401 - 1.829 ms - message: -
+11/6/2024, 12:20:59 AM [31merror[39m: GET /api/v1/user/profile 401 - 1.643 ms - message: -
+11/6/2024, 1:13:04 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:107:43)
+11/6/2024, 1:13:12 AM [31merror[39m: PATCH /api/v1/auth/logout - - 27.483 ms - message: -
+11/6/2024, 1:13:13 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:13:31 AM [31merror[39m: PATCH /api/v1/auth/logout - - 25.087 ms - message: -
+11/6/2024, 1:13:32 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:14:00 AM [31merror[39m: PATCH /api/v1/auth/logout - - 25.782 ms - message: -
+11/6/2024, 1:14:02 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:14:18 AM [31merror[39m: PATCH /api/v1/auth/logout - - 26.864 ms - message: -
+11/6/2024, 1:14:19 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:17:09 AM [31merror[39m: PATCH /api/v1/auth/logout - - 37.005 ms - message: -
+11/6/2024, 1:17:12 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:17:29 AM [31merror[39m: PATCH /api/v1/auth/logout - - 36.134 ms - message: -
+11/6/2024, 1:17:30 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:17:52 AM [31merror[39m: PATCH /api/v1/auth/logout - - 38.691 ms - message: -
+11/6/2024, 1:17:53 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:18:07 AM [31merror[39m: PATCH /api/v1/auth/logout - - 35.978 ms - message: -
+11/6/2024, 1:42:59 AM [31merror[39m: PATCH /api/v1/user/all 404 - 22.430 ms - message: -
+11/6/2024, 1:43:27 AM [31merror[39m: GET /api/v1/user/all?limit=20&page=1 500 - 13.912 ms - message: -
+11/6/2024, 1:45:53 AM [31merror[39m: GET /api/v1/user/all?limit=20&page=1 500 - 7.862 ms - message: -
+11/6/2024, 1:52:25 AM [31merror[39m: PATCH /api/v1/user/logout 404 - 1.321 ms - message: -
+11/6/2024, 2:22:55 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 25.520 ms - message: -
+11/6/2024, 2:23:10 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 16.290 ms - message: -
+11/6/2024, 2:23:50 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 17.483 ms - message: -

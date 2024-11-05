@@ -25,9 +25,8 @@ const ButtonMenu = ({
 
 export default function Home() {
   const router = useRouter();
-
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center">
+    <div className="w-full h-screen flex flex-col justify-center items-center text-white">
       <h1 className="text-3xl font-semibold">Choose one below:</h1>
       <div className="flex gap-4 m-5">
         {btnLandingMenus.map((val, index) => (

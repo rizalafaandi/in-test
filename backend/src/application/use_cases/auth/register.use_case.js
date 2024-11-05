@@ -14,14 +14,18 @@ const register = async (
       const error = new Error('email and password fields cannot be empty');
       throw error;
     }
-    const user = await userRepository.findById({ email });
+    const user = await userRepository.findByUnique({ email });
     if (user) {
       const error = new Error('Email already used by another');
       error.statusCode = 409;
       throw error;
     }
     const hashPass = await bcryptService.bcryptHashedPassword(password);
-    await userRepository.createUser({ email, password: hashPass });
+    await userRepository.createUser({
+      email,
+      password: hashPass,
+      signup_timestamp: new Date().toISOString()
+    });
     const token = jwtModule.sign(
       { id: user?.id },
       process.env.KEY_ACTIVATE_ACCOUNT

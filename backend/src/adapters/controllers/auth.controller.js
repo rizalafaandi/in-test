@@ -1,5 +1,7 @@
 const activateAccount = require('../../application/use_cases/auth/activate_account.use_case');
+const changePassword = require('../../application/use_cases/auth/change_password.use_case');
 const login = require('../../application/use_cases/auth/login.use_case');
+const logout = require('../../application/use_cases/auth/logout.use_case');
 const oauth = require('../../application/use_cases/auth/oatuh.use_case');
 const register = require('../../application/use_cases/auth/register.use_case');
 
@@ -8,7 +10,8 @@ const authController = (
   authService,
   authServiceFramework,
   bcryptService,
-  jwtModule
+  jwtModule,
+  userServices
 ) => {
   const dbRepository = userRepository;
   const authServices = authService(authServiceFramework?.());
@@ -26,14 +29,13 @@ const authController = (
           host: `${req.protocol}://${req.headers?.host}`
         }
       );
-      res.status(data.statusCode).json(data);
+      return res.status(data.statusCode).json(data);
     } catch (error) {
-      res.status(error.statusCode).json(error);
+      return res.status(error.statusCode).json(error);
     }
   };
 
   const registerUser = async (req, res) => {
-    console.log(req.body);
     try {
       const { email, password } = req.body;
       const data = await register(
@@ -46,11 +48,9 @@ const authController = (
           host: `${req.protocol}://${req.headers?.host}`
         }
       );
-      console.log({ data });
-      res.status(data.statusCode).json(data);
+      return res.status(data.statusCode).json(data);
     } catch (error) {
-      console.log({ error });
-      res.status(error.statusCode).json(error);
+      return res.status(error.statusCode).json(error);
     }
   };
 
@@ -62,10 +62,9 @@ const authController = (
         userRepository,
         authServices
       );
-      res.status(data.statusCode || 200).json(data);
+      return res.status(data.statusCode || 200).json(data);
     } catch (error) {
-      console.log({ error });
-      res.status(error.statusCode || 500).json(error);
+      return res.status(error.statusCode || 500).json(error);
     }
   };
 
@@ -78,13 +77,46 @@ const authController = (
         userRepository,
         jwtModule
       );
-      res.status(data.statusCode).json(data);
+      return res.status(data.statusCode).json(data);
     } catch (error) {
-      res.status(error.statusCode).json(error);
+      return res.status(error.statusCode).json(error);
     }
   };
 
-  return { loginUser, registerUser, oauthUser, activatUser };
+  const changePasswordUser = async (req, res) => {
+    try {
+      const { id } = req.authUser.user;
+      const data = await changePassword(
+        id,
+        req.body,
+        authServices,
+        userServices,
+        bcryptService
+      );
+      return res.status(data.statusCode).json(data);
+    } catch (error) {
+      return res.status(error.statusCode).json(error);
+    }
+  };
+
+  const logoutUser = async (req, res) => {
+    try {
+      const data = await logout(req.authUser.user.id, userServices);
+      console.log({ data });
+      return res.status(data.statusCode).json(data);
+    } catch (error) {
+      return res.status(error.statusCode).json(error);
+    }
+  };
+
+  return {
+    loginUser,
+    registerUser,
+    oauthUser,
+    activatUser,
+    changePasswordUser,
+    logoutUser
+  };
 };
 
 module.exports = authController;

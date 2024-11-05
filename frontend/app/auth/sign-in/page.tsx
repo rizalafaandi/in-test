@@ -4,7 +4,7 @@ import AuthForm from "@/components/organisms/AuthForm";
 import useAuthSubmit, { AuthData } from "@/hooks/useAuthSubmit";
 import { useRouter } from "next/navigation";
 import { FcGoogle } from "react-icons/fc";
-import { FaFacebook } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
 import { firebaseOauth } from "@/utils/firebaseOauth";
 
 const SignIn = () => {
@@ -42,12 +42,12 @@ const SignIn = () => {
               </label>
               <FcGoogle size={24} id="google-sign" />
             </button>
-            <button className="flex flex-row-reverse gap-1">
+            {/* <button className="flex flex-row-reverse gap-1">
               <label htmlFor="google-sign" className="text-black">
                 Facebook
               </label>
               <FaFacebook color="#1877F2" size={24} />
-            </button>
+            </button> */}
           </div>
         </div>
       }

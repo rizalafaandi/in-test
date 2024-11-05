@@ -24,18 +24,13 @@ const firebaseOauth = (submit: (data: AuthData) => Promise<void>) => {
 
   // Set persistence
   setPersistence(auth, browserLocalPersistence)
-    .then(() => {
-      console.log("stuff persitance");
-    })
-    .catch((error) => {
-      console.error("Error setting persistence:", error);
-    });
+    .then(() => {})
+    .catch(() => {});
 
   const loginWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     try {
       const result = await signInWithPopup(auth, provider);
-      console.log("berhasil ", result.user);
       await submit?.({
         email: result.user.email || "",
         displayName: result?.user.displayName || "",

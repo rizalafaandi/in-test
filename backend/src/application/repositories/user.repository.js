@@ -1,9 +1,18 @@
 const { prisma } = require('../../prisma');
 
 class UserRepository {
-  async findById(params) {
-    console.log(params);
+  async findByUnique(params) {
     return await prisma.users.findUnique({ where: params });
+  }
+
+  async findAllUser(params) {
+    return await prisma.users.findMany({
+      where: {
+        is_active: true
+      },
+      take: params?.limit || 20,
+      skip: params?.page ? (params?.page - 1) * params?.limit : 1
+    });
   }
 
   async createUser(data) {
@@ -16,6 +25,10 @@ class UserRepository {
 
   async deleteUser(id) {
     return await prisma.users.delete({ where: { id } });
+  }
+
+  async countUser(params) {
+    return await prisma.users.count({ where: params });
   }
 }
 

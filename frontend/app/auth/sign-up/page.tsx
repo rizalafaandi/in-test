@@ -4,7 +4,7 @@ import useAuthSubmit, { AuthData } from "@/hooks/useAuthSubmit";
 import { firebaseOauth } from "@/utils/firebaseOauth";
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
-import { FaFacebook } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 
 const SignupPage = () => {
@@ -43,12 +43,12 @@ const SignupPage = () => {
               </label>
               <FcGoogle size={24} id="google-sign" />
             </button>
-            <button className="flex flex-row-reverse gap-1">
+            {/* <button className="flex flex-row-reverse gap-1">
               <label htmlFor="google-sign" className="text-black">
                 Facebook
               </label>
               <FaFacebook color="#1877F2" size={24} />
-            </button>
+            </button> */}
           </div>
         </div>
       }

@@ -1,0 +1,670 @@
+11/6/2024, 12:20:13 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 3.397 ms
+11/6/2024, 12:20:13 AM [31merror[39m: GET /api/v1/user/profile 401 - 3.621 ms - message: -
+11/6/2024, 12:20:21 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.255 ms
+11/6/2024, 12:20:21 AM [31merror[39m: GET /api/v1/user/profile 401 - 1.829 ms - message: -
+11/6/2024, 12:20:59 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.443 ms
+11/6/2024, 12:20:59 AM [31merror[39m: GET /api/v1/user/profile 401 - 1.643 ms - message: -
+11/6/2024, 12:25:07 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.339 ms
+11/6/2024, 12:25:07 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 32.997 ms
+11/6/2024, 12:25:07 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.293 ms
+11/6/2024, 12:25:07 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.427 ms
+11/6/2024, 12:25:07 AM [32minfo[39m: GET /api/v1/user/profile 200 - 8.171 ms
+11/6/2024, 12:25:07 AM [32minfo[39m: GET /api/v1/user/profile 304 - 10.492 ms
+11/6/2024, 12:25:21 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.250 ms
+11/6/2024, 12:25:21 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.470 ms
+11/6/2024, 12:25:21 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.683 ms
+11/6/2024, 12:25:22 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.242 ms
+11/6/2024, 12:25:22 AM [32minfo[39m: GET /api/v1/user/profile 304 - 4.283 ms
+11/6/2024, 12:25:22 AM [32minfo[39m: GET /api/v1/user/profile 304 - 3.836 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.260 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.213 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.392 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.423 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: GET /api/v1/user/profile 304 - 7.540 ms
+11/6/2024, 12:25:49 AM [32minfo[39m: GET /api/v1/user/profile 304 - 8.458 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.216 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.307 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.708 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.545 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: GET /api/v1/user/profile 304 - 8.161 ms
+11/6/2024, 12:27:25 AM [32minfo[39m: GET /api/v1/user/profile 304 - 7.940 ms
+11/6/2024, 12:30:16 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.178 ms
+11/6/2024, 12:30:16 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.651 ms
+11/6/2024, 12:30:16 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.168 ms
+11/6/2024, 12:30:16 AM [32minfo[39m: GET /api/v1/user/profile 304 - 3.576 ms
+11/6/2024, 12:30:16 AM [32minfo[39m: GET /api/v1/user/profile 304 - 4.357 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.153 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 4.588 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.330 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.290 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: GET /api/v1/user/profile 304 - 4.591 ms
+11/6/2024, 12:32:02 AM [32minfo[39m: GET /api/v1/user/profile 304 - 9.352 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.221 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.701 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.583 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 4.745 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: GET /api/v1/user/profile 304 - 6.278 ms
+11/6/2024, 12:34:46 AM [32minfo[39m: GET /api/v1/user/profile 304 - 9.095 ms
+11/6/2024, 12:35:28 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.183 ms
+11/6/2024, 12:35:28 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.755 ms
+11/6/2024, 12:35:29 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.362 ms
+11/6/2024, 12:35:29 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.255 ms
+11/6/2024, 12:35:29 AM [32minfo[39m: GET /api/v1/user/profile 304 - 9.379 ms
+11/6/2024, 12:35:29 AM [32minfo[39m: GET /api/v1/user/profile 304 - 5.891 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.147 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 3.628 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.184 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.158 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: GET /api/v1/user/profile 304 - 3.033 ms
+11/6/2024, 12:36:01 AM [32minfo[39m: GET /api/v1/user/profile 304 - 3.472 ms
+11/6/2024, 12:49:53 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:49:54 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:49:54 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:52:44 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:52:45 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:52:45 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:52:55 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:52:56 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:52:56 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:53:12 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:53:12 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:53:12 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:53:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:53:17 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:53:17 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:56:34 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:56:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:56:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:56:45 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:56:45 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:56:45 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:56:51 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:56:51 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:56:51 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:57:05 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:57:06 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:57:06 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:57:32 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:57:32 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:57:32 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:58:14 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 2.667 ms
+11/6/2024, 12:58:14 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 28.140 ms
+11/6/2024, 12:58:17 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.596 ms
+11/6/2024, 12:58:17 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 1.091 ms
+11/6/2024, 12:58:17 AM [32minfo[39m: GET /api/v1/user/profile 304 - 15.141 ms
+11/6/2024, 12:58:17 AM [32minfo[39m: GET /api/v1/user/profile 304 - 7.742 ms
+11/6/2024, 12:59:47 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:59:49 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:59:49 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:59:49 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 12:59:52 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 12:59:52 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 12:59:52 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:00:01 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:05 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:00:05 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:00:05 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:00:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:18 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:00:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:00:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:00:40 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:43 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:00:43 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:00:43 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:00:55 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:00:57 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:00:57 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:00:57 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:01:04 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:01:04 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:01:04 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:01:29 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:01:30 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:01:31 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:01:46 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:02:14 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:02:14 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:02:14 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:02:58 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:03:10 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:03:11 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:03:11 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:03:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:03:18 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:03:19 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:03:19 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:04:16 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:05:04 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:05:05 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:05:05 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:05:14 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:05:14 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:05:14 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:05:28 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:05:29 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:05:29 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:05:38 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:05:38 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:05:38 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:05:58 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:05:59 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:05:59 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:06:44 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:06:45 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:06:45 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:06:45 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:09:46 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:13:00 AM [32minfo[39m: PATCH /api/v1/auth/logout - - - ms
+11/6/2024, 1:13:00 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:13:00 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:13:04 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:107:43)
+11/6/2024, 1:13:11 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:13:12 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 27.483 ms
+11/6/2024, 1:13:12 AM [31merror[39m: PATCH /api/v1/auth/logout - - 27.483 ms - message: -
+11/6/2024, 1:13:13 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:13:13 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:13:13 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:13:18 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:13:31 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 25.087 ms
+11/6/2024, 1:13:31 AM [31merror[39m: PATCH /api/v1/auth/logout - - 25.087 ms - message: -
+11/6/2024, 1:13:32 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:13:32 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:13:32 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:13:37 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:14:00 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 25.782 ms
+11/6/2024, 1:14:00 AM [31merror[39m: PATCH /api/v1/auth/logout - - 25.782 ms - message: -
+11/6/2024, 1:14:01 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:14:01 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:14:02 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:14:16 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:14:18 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 26.864 ms
+11/6/2024, 1:14:18 AM [31merror[39m: PATCH /api/v1/auth/logout - - 26.864 ms - message: -
+11/6/2024, 1:14:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:14:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:14:19 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:16:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:16:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:16:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:17:09 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 37.005 ms
+11/6/2024, 1:17:09 AM [31merror[39m: PATCH /api/v1/auth/logout - - 37.005 ms - message: -
+11/6/2024, 1:17:10 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:17:10 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:17:12 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:17:27 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:17:29 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 36.134 ms
+11/6/2024, 1:17:29 AM [31merror[39m: PATCH /api/v1/auth/logout - - 36.134 ms - message: -
+11/6/2024, 1:17:30 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:17:30 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:17:30 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:17:51 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:17:52 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 38.691 ms
+11/6/2024, 1:17:52 AM [31merror[39m: PATCH /api/v1/auth/logout - - 38.691 ms - message: -
+11/6/2024, 1:17:52 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:17:52 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:17:53 AM [31merror[39m: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse.writeHead (/Users/macpro/Documents/product/incit-test/backend/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (/Users/macpro/Documents/product/incit-test/backend/node_modules/compression/index.js:103:14)
+    at ServerResponse.send (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:232:10)
+    at ServerResponse.json (/Users/macpro/Documents/product/incit-test/backend/node_modules/express/lib/response.js:278:15)
+    at logoutUser (/Users/macpro/Documents/product/incit-test/backend/src/adapters/controllers/auth.controller.js:108:43)
+11/6/2024, 1:18:07 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:18:07 AM [32minfo[39m: PATCH /api/v1/auth/logout - - 35.978 ms
+11/6/2024, 1:18:07 AM [31merror[39m: PATCH /api/v1/auth/logout - - 35.978 ms - message: -
+11/6/2024, 1:18:08 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:18:08 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:18:10 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 33.683 ms
+11/6/2024, 1:18:14 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 8.917 ms
+11/6/2024, 1:18:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:18:23 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:18:23 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:18:25 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 30.846 ms
+11/6/2024, 1:18:26 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.323 ms
+11/6/2024, 1:19:24 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:19:25 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:19:25 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:19:25 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 35.828 ms
+11/6/2024, 1:19:30 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:19:30 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:19:30 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:19:35 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:19:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:19:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:19:36 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 31.215 ms
+11/6/2024, 1:19:55 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 8.237 ms
+11/6/2024, 1:20:18 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:20:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:20:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:20:20 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 33.111 ms
+11/6/2024, 1:21:27 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:21:28 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:21:28 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:21:39 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 32.118 ms
+11/6/2024, 1:21:47 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.091 ms
+11/6/2024, 1:21:57 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.807 ms
+11/6/2024, 1:22:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:22:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:22:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:22:27 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 39.306 ms
+11/6/2024, 1:22:29 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.298 ms
+11/6/2024, 1:22:32 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 6.022 ms
+11/6/2024, 1:23:17 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.115 ms
+11/6/2024, 1:23:27 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:23:28 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:23:28 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:23:30 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 31.232 ms
+11/6/2024, 1:23:32 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.004 ms
+11/6/2024, 1:23:42 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.076 ms
+11/6/2024, 1:23:44 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.772 ms
+11/6/2024, 1:23:45 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.618 ms
+11/6/2024, 1:23:46 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 6.022 ms
+11/6/2024, 1:23:46 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.823 ms
+11/6/2024, 1:23:47 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.135 ms
+11/6/2024, 1:23:47 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 8.209 ms
+11/6/2024, 1:23:48 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 6.680 ms
+11/6/2024, 1:23:48 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.064 ms
+11/6/2024, 1:23:49 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.709 ms
+11/6/2024, 1:23:49 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.965 ms
+11/6/2024, 1:23:50 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.382 ms
+11/6/2024, 1:23:50 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.996 ms
+11/6/2024, 1:23:51 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 6.668 ms
+11/6/2024, 1:23:51 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 6.861 ms
+11/6/2024, 1:24:01 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 5.446 ms
+11/6/2024, 1:24:08 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:24:09 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:24:09 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:24:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:24:23 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:24:23 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:25:53 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:25:54 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:25:54 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:32:28 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:32:29 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:32:29 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:32:35 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:32:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:32:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:34:38 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:34:39 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:34:39 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:35:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:35:03 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:35:03 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:35:11 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:35:12 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:35:12 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:35:54 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:35:59 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:35:59 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:36:18 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:36:19 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:36:19 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:36:34 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:36:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:36:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:37:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:37:03 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:37:03 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:37:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:37:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:37:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:37:45 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:37:45 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:37:46 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:37:57 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:37:59 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:37:59 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:38:02 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:38:03 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:38:03 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:38:18 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:38:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:38:19 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:38:35 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:38:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:38:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:39:21 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:39:21 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:39:21 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:39:34 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:39:34 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:39:34 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:39:40 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:39:40 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:39:40 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:39:53 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:39:53 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:39:53 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:40:07 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:40:07 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:40:07 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:42:59 AM [31merror[39m: PATCH /api/v1/user/all 404 - 22.430 ms - message: -
+11/6/2024, 1:43:08 AM [32minfo[39m: GET /api/v1/user/all 200 - 18.590 ms
+11/6/2024, 1:43:27 AM [32minfo[39m: OPTIONS /api/v1/user/all?limit=20&page=1 204 - 0.371 ms
+11/6/2024, 1:43:27 AM [31merror[39m: GET /api/v1/user/all?limit=20&page=1 500 - 13.912 ms - message: -
+11/6/2024, 1:45:53 AM [32minfo[39m: OPTIONS /api/v1/user/all?limit=20&page=1 204 - 0.242 ms
+11/6/2024, 1:45:53 AM [31merror[39m: GET /api/v1/user/all?limit=20&page=1 500 - 7.862 ms - message: -
+11/6/2024, 1:46:08 AM [32minfo[39m: GET /api/v1/user/all 200 - 3.759 ms
+11/6/2024, 1:46:25 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.278 ms
+11/6/2024, 1:46:25 AM [32minfo[39m: GET /api/v1/user/all 200 - 9.838 ms
+11/6/2024, 1:47:43 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.436 ms
+11/6/2024, 1:47:43 AM [32minfo[39m: GET /api/v1/user/all 304 - 5.171 ms
+11/6/2024, 1:50:42 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 23.838 ms
+11/6/2024, 1:50:42 AM [32minfo[39m: GET /api/v1/user/all 304 - 5.681 ms
+11/6/2024, 1:52:05 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.447 ms
+11/6/2024, 1:52:05 AM [32minfo[39m: GET /api/v1/user/all 304 - 61.290 ms
+11/6/2024, 1:52:25 AM [32minfo[39m: OPTIONS /api/v1/user/logout 204 - 0.220 ms
+11/6/2024, 1:52:25 AM [31merror[39m: PATCH /api/v1/user/logout 404 - 1.321 ms - message: -
+11/6/2024, 1:52:41 AM [32minfo[39m: OPTIONS /api/v1/auth/logout 204 - 0.256 ms
+11/6/2024, 1:52:41 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 10.045 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.259 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 7.188 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.200 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.274 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: GET /api/v1/user/all 200 - 3.304 ms
+11/6/2024, 1:52:48 AM [32minfo[39m: GET /api/v1/user/all 304 - 4.009 ms
+11/6/2024, 1:52:54 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 1.115 ms
+11/6/2024, 1:52:54 AM [32minfo[39m: GET /api/v1/user/all 304 - 7.755 ms
+11/6/2024, 1:52:56 AM [32minfo[39m: OPTIONS /api/v1/auth/logout 204 - 0.196 ms
+11/6/2024, 1:52:56 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 4.686 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.198 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 4.009 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.308 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.253 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: GET /api/v1/user/all 200 - 3.359 ms
+11/6/2024, 1:53:01 AM [32minfo[39m: GET /api/v1/user/all 304 - 3.949 ms
+11/6/2024, 1:54:06 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:54:07 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:54:07 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:54:41 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:54:41 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:54:41 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:56:12 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:56:13 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:56:13 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:58:32 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:58:47 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:58:47 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:59:09 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:59:09 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:59:09 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:59:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:59:23 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:59:23 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:59:36 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:59:37 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:59:37 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:00:06 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:00:07 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:00:07 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:00:30 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:00:31 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:00:31 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:00:36 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:00:36 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:00:36 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:00:57 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:01:08 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:01:08 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:01:56 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 3.213 ms
+11/6/2024, 2:01:56 AM [32minfo[39m: GET /api/v1/user/all 200 - 28.252 ms
+11/6/2024, 2:02:19 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.265 ms
+11/6/2024, 2:02:19 AM [32minfo[39m: GET /api/v1/user/all 304 - 5.712 ms
+11/6/2024, 2:02:19 AM [32minfo[39m: GET /api/v1/user/all 304 - 4.641 ms
+11/6/2024, 2:02:20 AM [32minfo[39m: GET /api/v1/user/all 304 - 129.156 ms
+11/6/2024, 2:03:05 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.474 ms
+11/6/2024, 2:03:05 AM [32minfo[39m: GET /api/v1/user/all 304 - 8.397 ms
+11/6/2024, 2:03:21 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.269 ms
+11/6/2024, 2:03:21 AM [32minfo[39m: GET /api/v1/user/all 304 - 6.179 ms
+11/6/2024, 2:05:05 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.660 ms
+11/6/2024, 2:05:05 AM [32minfo[39m: GET /api/v1/user/all 304 - 8.776 ms
+11/6/2024, 2:05:09 AM [32minfo[39m: OPTIONS /api/v1/auth/logout 204 - 0.263 ms
+11/6/2024, 2:05:09 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.869 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.170 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 22.849 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.847 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.211 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: GET /api/v1/user/all 200 - 3.241 ms
+11/6/2024, 2:05:14 AM [32minfo[39m: GET /api/v1/user/all 304 - 5.354 ms
+11/6/2024, 2:05:19 AM [32minfo[39m: GET /api/v1/user/all 304 - 10.096 ms
+11/6/2024, 2:05:20 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.250 ms
+11/6/2024, 2:05:20 AM [32minfo[39m: GET /api/v1/user/all 304 - 7.361 ms
+11/6/2024, 2:05:37 AM [32minfo[39m: OPTIONS /api/v1/auth/logout 204 - 0.215 ms
+11/6/2024, 2:05:37 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 4.252 ms
+11/6/2024, 2:05:41 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.205 ms
+11/6/2024, 2:05:41 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 7.519 ms
+11/6/2024, 2:05:42 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.232 ms
+11/6/2024, 2:05:42 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.168 ms
+11/6/2024, 2:05:42 AM [32minfo[39m: GET /api/v1/user/all 200 - 4.733 ms
+11/6/2024, 2:05:42 AM [32minfo[39m: GET /api/v1/user/all 304 - 3.609 ms
+11/6/2024, 2:11:47 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:11:48 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:11:48 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:12:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:12:04 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:12:04 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:15:03 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:15:04 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:15:04 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:15:37 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:15:37 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:15:37 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:16:34 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:16:35 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:16:35 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:17:10 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:17:11 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:17:11 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:18:26 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:18:26 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:18:26 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:19:02 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:19:03 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:19:03 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:19:13 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:19:14 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:19:14 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:19:17 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:19:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:19:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:19:23 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:19:23 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:19:23 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:19:41 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:19:41 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:19:41 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:20:04 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:20:04 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:20:04 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:20:20 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:20:20 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:20:20 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:21:24 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:21:24 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:21:25 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:21:27 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:21:28 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:21:28 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:21:51 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:21:52 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:21:52 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:22:55 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 10.159 ms
+11/6/2024, 2:22:55 AM [32minfo[39m: GET /api/v1/user/all 304 - 23.268 ms
+11/6/2024, 2:22:55 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.349 ms
+11/6/2024, 2:22:55 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 25.520 ms - message: -
+11/6/2024, 2:23:07 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:23:08 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:23:08 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:23:10 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 3.201 ms
+11/6/2024, 2:23:10 AM [32minfo[39m: GET /api/v1/user/all 304 - 20.679 ms
+11/6/2024, 2:23:10 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.348 ms
+11/6/2024, 2:23:10 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 16.290 ms - message: -
+11/6/2024, 2:23:45 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:23:46 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:23:46 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:23:48 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:23:48 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:23:48 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:23:50 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 4.587 ms
+11/6/2024, 2:23:50 AM [32minfo[39m: GET /api/v1/user/all 304 - 26.253 ms
+11/6/2024, 2:23:50 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.467 ms
+11/6/2024, 2:23:50 AM [31merror[39m: GET /api/v1/user/num-active-signup 500 - 17.483 ms - message: -
+11/6/2024, 2:24:11 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:24:11 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:24:11 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:24:18 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:24:18 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:24:18 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:24:20 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 2.171 ms
+11/6/2024, 2:24:20 AM [32minfo[39m: GET /api/v1/user/all 304 - 21.051 ms
+11/6/2024, 2:24:20 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.655 ms
+11/6/2024, 2:24:20 AM [32minfo[39m: GET /api/v1/user/num-active-signup 200 - 7.936 ms
+11/6/2024, 2:25:59 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:26:00 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:26:00 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:26:03 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 5.352 ms
+11/6/2024, 2:26:03 AM [32minfo[39m: GET /api/v1/user/all 304 - 23.382 ms
+11/6/2024, 2:26:03 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.336 ms
+11/6/2024, 2:26:03 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 9.552 ms
+11/6/2024, 2:26:20 AM [32minfo[39m: SIGTERM signal received
+11/6/2024, 2:26:21 AM [32minfo[39m: Connected to SQL Database
+11/6/2024, 2:26:21 AM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 2:26:23 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 5.942 ms
+11/6/2024, 2:26:23 AM [32minfo[39m: GET /api/v1/user/all 304 - 30.208 ms
+11/6/2024, 2:26:23 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 3.648 ms
+11/6/2024, 2:26:23 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 20.878 ms
+11/6/2024, 2:27:07 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.311 ms
+11/6/2024, 2:27:07 AM [32minfo[39m: GET /api/v1/user/all 200 - 7.943 ms
+11/6/2024, 2:27:07 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 1.252 ms
+11/6/2024, 2:27:07 AM [32minfo[39m: GET /api/v1/user/num-active-signup 200 - 9.070 ms
+11/6/2024, 2:28:07 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.276 ms
+11/6/2024, 2:28:07 AM [32minfo[39m: GET /api/v1/user/all 304 - 23.457 ms
+11/6/2024, 2:28:07 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.263 ms
+11/6/2024, 2:28:07 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 9.109 ms
+11/6/2024, 2:29:59 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.264 ms
+11/6/2024, 2:29:59 AM [32minfo[39m: GET /api/v1/user/all 304 - 3.728 ms
+11/6/2024, 2:29:59 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.306 ms
+11/6/2024, 2:29:59 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 5.882 ms
+11/6/2024, 2:30:02 AM [32minfo[39m: GET /api/v1/user/all 304 - 3.935 ms
+11/6/2024, 2:30:03 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 100.255 ms
+11/6/2024, 2:31:32 AM [32minfo[39m: OPTIONS /api/v1/auth/logout 204 - 0.187 ms
+11/6/2024, 2:31:32 AM [32minfo[39m: PATCH /api/v1/auth/logout 200 - 7.986 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: OPTIONS /api/v1/auth/oauth 204 - 0.214 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: POST /api/v1/auth/oauth 200 - 26.428 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.223 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.550 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: GET /api/v1/user/all 200 - 4.213 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.254 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: GET /api/v1/user/all 304 - 5.430 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 5.555 ms
+11/6/2024, 2:31:50 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 5.658 ms
+11/6/2024, 2:32:04 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.245 ms
+11/6/2024, 2:32:04 AM [32minfo[39m: GET /api/v1/user/all 200 - 14.941 ms
+11/6/2024, 2:32:04 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.190 ms
+11/6/2024, 2:32:04 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 14.457 ms
+11/6/2024, 2:32:36 AM [32minfo[39m: OPTIONS /api/v1/auth/change-password 204 - 0.162 ms
+11/6/2024, 2:32:36 AM [32minfo[39m: PATCH /api/v1/auth/change-password 200 - 91.231 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: OPTIONS /api/v1/auth/change-password 204 - 0.171 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: PATCH /api/v1/auth/change-password 200 - 88.975 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.787 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.300 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: GET /api/v1/user/all 200 - 3.174 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.177 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: GET /api/v1/user/all 304 - 6.042 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 5.495 ms
+11/6/2024, 2:34:09 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 8.158 ms
+11/6/2024, 2:34:50 AM [32minfo[39m: OPTIONS /api/v1/auth/change-password 204 - 0.160 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: PATCH /api/v1/auth/change-password 200 - 168.168 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 1.549 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: OPTIONS /api/v1/user/all 204 - 0.599 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: GET /api/v1/user/all 200 - 6.647 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: OPTIONS /api/v1/user/num-active-signup 204 - 0.286 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: GET /api/v1/user/all 304 - 7.967 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 6.282 ms
+11/6/2024, 2:34:51 AM [32minfo[39m: GET /api/v1/user/num-active-signup 304 - 8.903 ms
+11/6/2024, 2:35:11 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.388 ms
+11/6/2024, 2:35:11 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.186 ms
+11/6/2024, 2:35:11 AM [32minfo[39m: GET /api/v1/user/profile 200 - 7.356 ms
+11/6/2024, 2:35:11 AM [32minfo[39m: GET /api/v1/user/profile 304 - 120.680 ms
+11/6/2024, 2:35:13 AM [32minfo[39m: OPTIONS /api/v1/user/profile 204 - 0.355 ms
+11/6/2024, 2:35:13 AM [32minfo[39m: PATCH /api/v1/user/profile 200 - 3.558 ms
+11/6/2024, 2:35:38 AM [32minfo[39m: SIGTERM signal received

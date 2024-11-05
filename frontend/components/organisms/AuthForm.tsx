@@ -66,27 +66,20 @@ const AuthForm = ({
     e.preventDefault();
 
     const validationErrors = validate();
-    console.log({
-      formData,
-      validationErrors: Object.keys(validationErrors).length === 0,
-    });
     if (!validationErrors.email.length && !validationErrors.password.length) {
       const passwordValidationError = passwordValdation(formData.password);
       if (passwordValidationError) {
         setPasswordError(passwordValidationError);
         return;
       }
-
-      // Lakukan proses registrasi jika validasi berhasil
-      console.log("Form submitted:", formData);
-      onSubmit(formData); // Mengirim data ke fungsi onSubmit
+      onSubmit(formData);
     } else {
       setErrors(validationErrors);
     }
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="w-[55%] p-6 bg-white shadow-lg rounded-lg">
       <form onSubmit={handleSubmit}>
         <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800">
           {isRegister ? "Register" : "Login"}

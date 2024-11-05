@@ -16,7 +16,7 @@ const login = async (
       error.statusCode = 401;
       throw error;
     }
-    const user = await userRepository.findById({ email });
+    const user = await userRepository.findByUnique({ email });
     if (!user) {
       const error = new Error('User not found');
       error.statusCode = 401;
@@ -44,6 +44,12 @@ const login = async (
       error.statusCode = 401;
       throw error;
     }
+    await userRepository.updateUser(user?.id, {
+      login_start_timestamp: new Date().toISOString(),
+      num_time_login: {
+        increment: 1
+      }
+    });
     const payload = {
       user: {
         id: user?.id
@@ -53,7 +59,10 @@ const login = async (
       status: httpStatus[200],
       statusCode: 200,
       message: 'Success to login',
-      accessToken: authService.generateToken(payload)
+      result: {
+        accessToken: authService.generateToken(payload),
+        is_active: user?.is_active
+      }
     };
   } catch (error) {
     throw { ...error, message: error.message };

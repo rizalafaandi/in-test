@@ -1,12 +1,17 @@
 const userRepository = require('../repositories/user.repository');
 
 class UserService {
-  async getUserById(id) {
-    const user = await userRepository.findById(id);
+  async getUserByUnique(params) {
+    const user = await userRepository.findByUnique(params);
     if (!user) {
       throw new Error('User not found');
     }
     return user;
+  }
+
+  async findManyUser(params) {
+    const users = await userRepository.findAllUser(params);
+    return users;
   }
 
   async createUser(data) {
@@ -19,6 +24,10 @@ class UserService {
 
   async deleteUser(id) {
     return await userRepository.deleteUser(id);
+  }
+
+  async countNumUser(params) {
+    return await userRepository.countUser(params);
   }
 }
 

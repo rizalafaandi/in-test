@@ -9,7 +9,6 @@ export function withAuth(WrappedComponent: React.ComponentType) {
 
     useEffect(() => {
       const isAuthenticated = !!Cookies.get("AUTH_TOKEN"); // save token on cookies
-      console.log({ isAuthenticated });
 
       if (!isAuthenticated) {
         router.replace("/auth/sign-in"); // direct to sigin if not have access token

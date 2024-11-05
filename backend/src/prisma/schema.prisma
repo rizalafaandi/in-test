@@ -8,10 +8,16 @@ datasource db {
 }
 
 model users {
-  id            BigInt    @id(map: "users_pk") @default(autoincrement())
-  email         String    @unique(map: "users_un1") @db.VarChar
-  password      String?   @db.VarChar
-  nickname      String?   @unique(map: "users_un2") @db.VarChar
-  date_of_birth DateTime? @db.Date
-  is_active     Boolean?  @default(false)
+  id                    BigInt    @id(map: "users_pk") @default(autoincrement())
+  email                 String    @unique(map: "users_un1") @db.VarChar
+  password              String?   @db.VarChar
+  nickname              String?   @unique(map: "users_un2") @db.VarChar
+  date_of_birth         DateTime? @db.Date
+  is_active             Boolean?  @default(false)
+  avatar                String?   @db.VarChar
+  signup_timestamp      DateTime? @db.Timestamp(6)
+  login_start_timestamp DateTime? @db.Timestamp(6)
+  login_end_timestamp   DateTime? @db.Timestamp(6)
+  total_login_duration  String?   @db.VarChar
+  num_time_login        Int?      @default(0)
 }

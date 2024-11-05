@@ -2028,3 +2028,9 @@
 11/4/2024, 9:17:09 PM [31merror[39m: POST /api/v1/auth/oauth 500 - 24.198 ms - message: -
 11/4/2024, 9:21:33 PM [31merror[39m: POST /api/v1/auth/register - - 33.681 ms - message: -
 11/4/2024, 9:21:45 PM [31merror[39m: POST /api/v1/auth/oauth 500 - 28.744 ms - message: -
+11/4/2024, 10:07:33 PM [31merror[39m: GET /api/v1/user/profile 401 - 8.254 ms - message: -
+11/4/2024, 10:07:34 PM [31merror[39m: GET /api/v1/user/profile 401 - 1.315 ms - message: -
+11/4/2024, 10:07:36 PM [31merror[39m: GET /api/v1/user/profile 401 - 3.073 ms - message: -
+11/4/2024, 10:07:37 PM [31merror[39m: GET /api/v1/user/profile 401 - 2.851 ms - message: -
+11/4/2024, 10:08:04 PM [31merror[39m: GET /api/v1/user/profile 401 - 1.453 ms - message: -
+11/4/2024, 10:08:38 PM [31merror[39m: GET /api/v1/user/profile 401 - 14.281 ms - message: -
