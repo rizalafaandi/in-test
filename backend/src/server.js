@@ -1,6 +1,6 @@
 const { prisma } = require('./prisma');
 const app = require('./app');
-const { envConfig, loggerConfig } = require('./configs');
+const { envConfig } = require('./configs');
 
 let server;
 prisma.$connect().then(() => {

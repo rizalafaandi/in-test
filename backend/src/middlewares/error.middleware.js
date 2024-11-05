@@ -1,7 +1,7 @@
 const { Prisma } = require('@prisma/client');
 const httpStatus = require('http-status');
 
-const { envConfig, loggerConfig } = require('../configs');
+const { envConfig } = require('../configs');
 const { apiError } = require('../utils');
 
 const errorConverter = (err, req, res, next) => {
@@ -34,7 +34,7 @@ const errorHandler = (err, req, res) => {
   };
 
   if (envConfig.env === 'development') {
-    loggerConfig.error(err);
+    // loggerConfig.error(err);
   }
   res.status(statusCode).send(response);
 };
