@@ -1,6 +1,20 @@
 import React from "react";
 
-const InputField = ({ label, type, name, value, onChange, error }) => {
+const InputField = ({
+  label,
+  type,
+  name,
+  value,
+  onChange,
+  error,
+}: {
+  label: string;
+  type: string;
+  name: string;
+  value: string;
+  onChange: React.ChangeEventHandler<HTMLInputElement> | undefined;
+  error: string;
+}) => {
   return (
     <input
       type={type}
