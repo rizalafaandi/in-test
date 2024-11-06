@@ -21,13 +21,16 @@ const oauth = async (data, userRepository, authService) => {
       });
       payload.user.id = newUser?.id;
       is_active = newUser?.is_active;
+    } else {
+      const updatedUser = await userRepository.updateUser(user.id, {
+        num_time_login: {
+          increment: 1
+        },
+        login_start_timestamp: new Date().toISOString()
+      });
+      payload.user.id = updatedUser?.id;
+      is_active = updatedUser?.is_active;
     }
-    await userRepository.updateUser(user.id, {
-      num_time_login: {
-        increment: 1
-      },
-      login_start_timestamp: new Date().toISOString()
-    });
     return {
       status: httpStatus[200],
       statusCode: 200,
