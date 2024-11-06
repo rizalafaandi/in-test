@@ -711,3 +711,10 @@
 11/6/2024, 1:36:20 PM [32minfo[39m: Connected to SQL Database
 11/6/2024, 1:36:20 PM [32minfo[39m: Server (development) running on port 5001
 11/6/2024, 1:36:22 PM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:38:55 PM [32minfo[39m: Connected to SQL Database
+11/6/2024, 1:38:55 PM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 1:38:57 PM [32minfo[39m: SIGTERM signal received
+11/6/2024, 1:39:01 PM info: Connected to SQL Database
+11/6/2024, 1:39:01 PM info: Server (production) running on port 5001
+11/6/2024, 1:39:03 PM info: SIGTERM signal received
+11/6/2024, 1:39:03 PM info: SIGTERM signal received

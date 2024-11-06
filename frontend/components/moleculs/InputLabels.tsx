@@ -6,8 +6,8 @@ type Props = {
   name: string;
   label: string;
   onChange: React.ChangeEventHandler<HTMLInputElement> | undefined;
-  type: React.HTMLInputTypeAttribute | undefined;
-  value: string | number | readonly string[] | undefined;
+  type: string;
+  value: string;
 };
 
 const InputLabels = (props: Props) => {
