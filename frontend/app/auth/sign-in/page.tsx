@@ -14,7 +14,7 @@ const SignIn = () => {
   const { loginWithGoogle } = firebaseOauth(submit);
 
   const handleSubmit = async (val: AuthData) => {
-    await submit(val);
+    await submit({ ...val, sign_method: "basic" });
   };
 
   useEffect(() => {
