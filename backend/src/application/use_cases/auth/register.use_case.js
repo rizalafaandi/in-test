@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const { sendMailActivate } = require('../../../modules/nodemailer.modules');
+const { envConfig } = require('../../../configs');
 
 const register = async (
   email,
@@ -38,7 +39,14 @@ const register = async (
     return {
       statusCode: 201,
       success: true,
-      message: 'success register, check your email for verification'
+      message: 'success register, check your email for verification',
+      result: {
+        accessToken: jwtModule.sign(
+          { user: { id: newUser?.id } },
+          envConfig.jwt.secret
+        ),
+        is_active: newUser?.is_active
+      }
     };
   } catch (error) {
     console.log({ error });
