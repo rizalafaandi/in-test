@@ -88,11 +88,11 @@ const authController = (
   const resendCode = async (req, res) => {
     try {
       const { id } = req.authUser.user;
+      const user = await userRepository.findByUnique({ id });
       const token = jwtModule.sign(
         { id: user?.id },
         process.env.KEY_ACTIVATE_ACCOUNT
       );
-      const user = await userRepository.findByUnique({ id });
       sendMailActivate(
         nodemailer,
         `${`${req.protocol}://${req.headers?.host}`}/api/v1/auth/activate?email=${user?.email}&token=${token}}`,
