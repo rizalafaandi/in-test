@@ -10,11 +10,11 @@ const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const router = useRouter();
   const handleLogout = async () => {
+    Cookies.remove("AUTH_TOKEN");
+    Cookies.remove("current_user");
+    router.replace("/auth/sign-in");
     try {
       await satellite().patch("/api/v1/auth/logout");
-      Cookies.remove("AUTH_TOKEN");
-      Cookies.remove("current_user");
-      router.replace("/auth/sign-in");
     } catch (error) {
       return error;
     }

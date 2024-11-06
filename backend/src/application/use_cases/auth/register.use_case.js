@@ -21,7 +21,7 @@ const register = async (
       throw error;
     }
     const hashPass = await bcryptService.bcryptHashedPassword(password);
-    await userRepository.createUser({
+    const newUser = await userRepository.createUser({
       email,
       password: hashPass,
       signup_timestamp: new Date().toISOString()
@@ -32,7 +32,7 @@ const register = async (
     );
     sendMailActivate(
       nodemailer,
-      `${options?.host}/api/v1/auth/activate?email=${user?.email}&token=${token}}`,
+      `${options?.host}/api/v1/auth/activate?email=${newUser?.email}&token=${token}}`,
       email
     );
     return {

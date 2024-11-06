@@ -1,7 +1,16 @@
+"use clients";
 import React from "react";
 import Link from "next/link";
+import satellite from "@/utils/satellite";
 
 const RegistrationSuccess: React.FC = () => {
+  const handleResendCode = async () => {
+    try {
+      await satellite().post("/api/v1/auth/resend-code");
+    } catch (error) {
+      return error;
+    }
+  };
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-6">
       <div className="max-w-md w-full text-center bg-white p-8 rounded-lg shadow-lg">
@@ -23,9 +32,9 @@ const RegistrationSuccess: React.FC = () => {
 
         <p className="mt-4 text-gray-500">
           Didn’t receive the email? Please check your spam folder or{" "}
-          <a href="/resend-activation" className="text-blue-500 underline">
+          <div onClick={handleResendCode} className="text-blue-500 underline">
             click here
-          </a>{" "}
+          </div>{" "}
           to resend.
         </p>
 
