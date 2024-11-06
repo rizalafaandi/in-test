@@ -11,7 +11,7 @@ const { apiError } = require('./utils');
 const app = express();
 
 app.use(morganConfig.successHandler);
-// app.use(morganConfig.errorHandler);
+app.use(morganConfig.errorHandler);
 
 // set security HTTP headers
 app.use(helmet());
@@ -50,10 +50,10 @@ app.use((req, res, next) => {
 });
 
 // convert error to ApiError, if needed
-// app.use(errorMiddleware.errorConverter);
+app.use(errorMiddleware.errorConverter);
 
 // handle error
-// app.use(errorMiddleware.errorHandler);
+app.use(errorMiddleware.errorHandler);
 
 // fix 'how serialize a BigInt'
 BigInt.prototype.toJSON = function () {
