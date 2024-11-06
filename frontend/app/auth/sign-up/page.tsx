@@ -19,7 +19,7 @@ const SignupPage = () => {
 
   useEffect(() => {
     if (success) {
-      if (loginData?.result.is_active) {
+      if (loginData?.result?.is_active) {
         router.replace("/dashboard");
       } else {
         router.replace("/success/sign-up");
