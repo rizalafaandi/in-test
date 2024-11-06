@@ -29,7 +29,14 @@ app.use(xssMiddleware());
 app.use(compression());
 
 // enable cors
-app.use(cors());
+app.use(
+  cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
+    credentials: true,
+    optionsSuccessStatus: 200
+  })
+);
 app.options('*', cors());
 
 // jwt authentication

@@ -718,3 +718,6 @@
 11/6/2024, 1:39:01 PM info: Server (production) running on port 5001
 11/6/2024, 1:39:03 PM info: SIGTERM signal received
 11/6/2024, 1:39:03 PM info: SIGTERM signal received
+11/6/2024, 4:31:36 PM [32minfo[39m: Connected to SQL Database
+11/6/2024, 4:31:36 PM [32minfo[39m: Server (development) running on port 5001
+11/6/2024, 4:31:37 PM [32minfo[39m: SIGTERM signal received
